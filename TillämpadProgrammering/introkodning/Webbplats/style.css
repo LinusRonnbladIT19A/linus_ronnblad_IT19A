@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url("Tim\ barnes\ lee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Navlankar{
+    
+    
+}
+header{
+    padding: 20px;
+    background-color: white;
+
+}
