@@ -33,11 +33,36 @@ console.log(`Bokstav på index 4 är: ${bokstav5}`)
 let antal_bokstaver = alfabet.length
 console.log(`Antal bokstäver i alfabetet är ${antal_bokstaver}`)
 
-// slice
+
+console.log ("Jag läser IT-programmet på NTI Kronhus i Göteborg")
+
+/*
+    Räkna antalet ord i den här meningen:
+    Jag läser IT-programmet på NTI Kronhus i Göteborg
+
+*/
+let uppgift ="Jag läser IT-programmet på NTI Kronhus i Göteborg"
+let bokstavertotalt = uppgift.split(/ |-/gm)
+console.log(`antal ord: ${bokstavertotalt.length}`)
+
+// split
+
+let vokaler = /a|e|i|o|u|y|å|ä|ö/gm
+let vokalord = "LatjoLajban" ;
+console.log(`Antal vokaler i ordet ${vokalord} är: ${vokalord.match(vokaler).length}`)
+//olika varianter av split
+let mening = "Jag läser IT-programmet på NTI Kronhus i Göteborg"
+let ord = mening.split(" ")
+
+console.log(ord)
+console.log(ord[2])
+
+let antal_ord = ord.length
+console.log(`Antal ord i meningen är ${antal_ord}`)
 
 // sökning
 
-// split
+// slice
 
 
 //loopa över en lista
