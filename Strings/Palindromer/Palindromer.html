@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script defer src=palindromer.js></script> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href=palindromer.css">
+    <title>Palindrom</title>
+    <link rel="stylesheet" type="text/css" href="palindromer.css"/>
 </head>
 <body>
-    <div id=Palindromer>
-        <h1>Palindromer</h1>
-        <form>
-            <textarea name="textArea" id="textArea" cols="50" rows="15"></textarea>
-            <input type="button" value="Rätta ordet">
+ <div id="container">
+<h1> Palindrom test </h1>
+<form>
+<textarea id="textArea" cols="50" rows="15"></textarea>
+<input id="knapp" type="button" value="räkna ord">
+</form>
+<p>Är det palindrom?:</p>
+<p id="displaywords"></p>
 
+<p>Du har angivit texten: </p>
 
-        </form>
-        
+<p>Ditt ord baklänges är:</p>
+</div>
 
-    </div>
-    
 </body>
 </html>
